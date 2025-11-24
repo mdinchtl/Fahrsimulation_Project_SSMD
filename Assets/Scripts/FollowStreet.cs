@@ -2,14 +2,18 @@ using UnityEngine;
 
 public class FollowStreet : MonoBehaviour
 {
-    public GameObject Auto;
-    void Start()
+    private void OnTriggerExit(Collider other)
     {
-        Collider autoCollider = Auto.GetComponent<Collider>();
+        if (other.CompareTag("Street"))
+        {
+            Debug.Log("Auto hat die Straﬂe verlassen!");
+        }
     }
-
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag("Street"))
+        {
+            Debug.Log("Auto ist wieder auf der spur !");
+        }
     }
 }
