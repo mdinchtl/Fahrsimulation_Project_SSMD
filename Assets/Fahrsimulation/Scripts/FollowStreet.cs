@@ -8,14 +8,21 @@ public class FollowStreet : MonoBehaviour
     {
         if (other.CompareTag("Street"))
         {
-           Text.text = "Auto ist nicht auf der spur !";
+           Text.text = "Du befindest dich nicht mehr auf der Spur !";
         }
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Street"))
         {
-           Text.text = "Auto ist auf der spur !";
+           Text.text = " ";
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Vorrang"))
+        {
+            Text.text = "Du befindest dich nicht mehr auf der Spur !";
         }
     }
 }
