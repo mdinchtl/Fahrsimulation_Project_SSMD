@@ -18,11 +18,4 @@ public class FollowStreet : MonoBehaviour
            Text.text = " ";
         }
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Vorrang"))
-        {
-            Text.text = "Du befindest dich nicht mehr auf der Spur !";
-        }
-    }
 }
