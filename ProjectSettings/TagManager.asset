@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Street
+  - VorrangZone
   layers:
   - Default
   - TransparentFX
