@@ -15,7 +15,8 @@ public class FollowStreet : MonoBehaviour
     {
         if (other.CompareTag("Street"))
         {
-           Text.text = " ";
+            Text.text = " ";
+
         }
     }
 }
