@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Street
   - VorrangZone
+  - Ground
+  - "Vorrangstra\xDFe"
   layers:
   - Default
   - TransparentFX
