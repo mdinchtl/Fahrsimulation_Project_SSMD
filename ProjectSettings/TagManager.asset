@@ -8,6 +8,7 @@ TagManager:
   - VorrangZone
   - Ground
   - "Vorrangstra\xDFe"
+  - MyCar
   layers:
   - Default
   - TransparentFX
