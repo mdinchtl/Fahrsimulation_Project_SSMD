@@ -12,11 +12,9 @@ public class Unfall : MonoBehaviour
             StartCoroutine(LoadGameWithDelay(2f));
         }
     }
-
     private IEnumerator LoadGameWithDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
         SceneManager.LoadScene("GameOver");
     }
-
 }

@@ -1,16 +1,14 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Anweisung : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public Image anweisungBild;
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.CompareTag("VorrangZone"))
+        {    
+            anweisungBild.enabled = true;
+        }
     }
 }

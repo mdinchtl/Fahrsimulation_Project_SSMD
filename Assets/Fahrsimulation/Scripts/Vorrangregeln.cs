@@ -20,7 +20,6 @@ public class Vorrangregeln : MonoBehaviour
             Text.text = "Vorrangstraße !";
             Debug.Log("Vorrangstraße !");
         }
-
     }
 
     private void OnTriggerExit(Collider other)
@@ -33,7 +32,5 @@ public class Vorrangregeln : MonoBehaviour
         {
             Text.text = "";
         }
-
     }
-
 }

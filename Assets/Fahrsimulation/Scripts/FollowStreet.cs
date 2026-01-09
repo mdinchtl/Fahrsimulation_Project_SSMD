@@ -11,7 +11,6 @@ public class FollowStreet : MonoBehaviour
             Text.text = "Du befindest dich nicht mehr auf der Spur !";
 
         }
-        
     }
     private void OnTriggerExit(Collider other)
     {
@@ -19,6 +18,5 @@ public class FollowStreet : MonoBehaviour
         {
             Text.text = "";
         }
-
     }
 }

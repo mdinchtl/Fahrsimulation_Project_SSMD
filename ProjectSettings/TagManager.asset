@@ -10,6 +10,8 @@ TagManager:
   - "Vorrangstra\xDFe"
   - MyCar
   - Kreuzung
+  - "Falschestra\xDFe"
+  - Ziel
   layers:
   - Default
   - TransparentFX
