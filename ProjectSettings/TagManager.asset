@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - "Vorrangstra\xDFe"
   - MyCar
+  - Kreuzung
   layers:
   - Default
   - TransparentFX

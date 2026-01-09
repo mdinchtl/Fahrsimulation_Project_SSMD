@@ -15,10 +15,10 @@ public class Vorrangregeln : MonoBehaviour
             Debug.Log("Vorrang geben !");
         }
         
-        if (other.CompareTag("Vorrangstra�e"))
+        if (other.CompareTag("Vorrangstraße"))
         {
-            Text.text = "Vorrangstra�e !";
-            Debug.Log("Vorrangstra�e !");
+            Text.text = "Vorrangstraße !";
+            Debug.Log("Vorrangstraße !");
         }
 
     }
@@ -29,7 +29,7 @@ public class Vorrangregeln : MonoBehaviour
         {
             Text.text = "";
         }
-        if (other.CompareTag("Vorrangstra�e"))
+        if (other.CompareTag("Vorrangstraße"))
         {
             Text.text = "";
         }
