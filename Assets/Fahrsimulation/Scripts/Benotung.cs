@@ -7,18 +7,20 @@ public class Benotung : MonoBehaviour
     public int punkte = 5;
     private bool gameEnded = false;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         if (gameEnded) return;
 
-        if (collision.gameObject.CompareTag("Falschestraße"))
+        if (other.CompareTag("FalschestraÃŸe"))
         {
             punkte -= 1;
+            Debug.Log("Falsch ");
         }
 
-        if (collision.gameObject.CompareTag("Ziel") && punkte > 3)
+        if (other.CompareTag("Ziel") && punkte > 3)
         {
             gameEnded = true;
+            Debug.Log("Success");
             StartCoroutine(Success(3f));
         }
     }
@@ -30,6 +32,7 @@ public class Benotung : MonoBehaviour
         if (punkte < 2)
         {
             gameEnded = true;
+            Debug.Log("Fail");
             StartCoroutine(Fail(3f));
         }
     }
