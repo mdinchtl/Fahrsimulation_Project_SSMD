@@ -4,7 +4,7 @@ using TMPro;
 public class OnTrack : MonoBehaviour
 {
     public TextMeshProUGUI Text;
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Ground"))
         {
@@ -12,11 +12,11 @@ public class OnTrack : MonoBehaviour
 
         }
     }
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Ground"))
-        {
-            Text.text = "";
-        }
-    }
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if (other.CompareTag("Ground"))
+    //    {
+    //        Text.text = "";
+    //    }
+    //}
 }
