@@ -1,8 +1,10 @@
 using UnityEngine;
+using TMPro;
 
-public class DispaySpeed : MonoBehaviour
+public class DisplaySpeed : MonoBehaviour
 {
     private Rigidbody rb;
+    public TextMeshProUGUI speedText;
 
     void Start()
     {
@@ -11,7 +13,7 @@ public class DispaySpeed : MonoBehaviour
 
     void Update()
     {
-        float speed = rb.linearVelocity.magnitude * 3.6f;
-        Debug.Log("Geschwindigkeit: " + speed + " m/s");
+        float speed = rb.linearVelocity.magnitude * 3.6f; // km/h
+        speedText.text = "Speed: " + speed.ToString("F1") + " km/h";
     }
 }
