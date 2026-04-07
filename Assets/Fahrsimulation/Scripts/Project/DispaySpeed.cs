@@ -14,6 +14,6 @@ public class DisplaySpeed : MonoBehaviour
     void Update()
     {
         float speed = rb.linearVelocity.magnitude * 3.6f; // km/h
-        speedText.text = "Speed: " + speed.ToString("F1") + " km/h";
+        speedText.text = "Speed:" + speed.ToString("F1") + "km/h";
     }
 }
