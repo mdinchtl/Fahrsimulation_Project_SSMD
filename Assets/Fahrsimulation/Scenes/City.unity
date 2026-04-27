@@ -23724,7 +23724,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8065bdd2c3d16c74d9dd7943976d89e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instruction: []
   textField: {fileID: 1480151251}
 --- !u!1 &940566082 stripped
 GameObject:
@@ -28909,6 +28908,10 @@ PrefabInstance:
     - target: {fileID: 4298583023112785159, guid: 762eec1ea77e4494da47425524fdfe75, type: 3}
       propertyPath: m_Name
       value: "Vorrangstra\xDFe"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298583023112785159, guid: 762eec1ea77e4494da47425524fdfe75, type: 3}
+      propertyPath: m_TagString
+      value: links
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
