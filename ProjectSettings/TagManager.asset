@@ -12,6 +12,8 @@ TagManager:
   - Kreuzung
   - "Falschestra\xDFe"
   - Ziel
+  - links
+  - rechts
   layers:
   - Default
   - TransparentFX
