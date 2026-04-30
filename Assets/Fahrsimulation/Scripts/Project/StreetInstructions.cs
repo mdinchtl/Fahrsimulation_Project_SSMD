@@ -45,4 +45,13 @@ public class StreetInstructions : MonoBehaviour
         textField.text = "";
         currentRoutine = null;
     }
+
+    void Start()
+    {
+        // bei start soll kurz fahren sie los angezeigt werden
+        if (textField)
+        {
+            StartCoroutine(ShowTextForSeconds("Fahren Sie los.", 3f));
+        }
+    }
 }
