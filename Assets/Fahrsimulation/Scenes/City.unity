@@ -15857,6 +15857,32 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3011977760337429516, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+--- !u!1 &643747484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4901588587868856967, guid: 266c3bb086c4a1a4b9d29e402b901b99, type: 3}
+  m_PrefabInstance: {fileID: 7794530887074419829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &643747487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643747484}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.0000009536743, y: -0.000009536743, z: -0.00024414062}
 --- !u!1 &644260114 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3595292644610842406, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -17175,9 +17201,10 @@ GameObject:
   - component: {fileID: 686644341}
   - component: {fileID: 686644343}
   - component: {fileID: 686644342}
+  - component: {fileID: 686644344}
   m_Layer: 0
   m_Name: Sperrlinie (6)
-  m_TagString: Untagged
+  m_TagString: linie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17250,6 +17277,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686644340}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &686644344
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686644340}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000306}
+  m_Center: {x: 0.0000009536743, y: 0.000030040741, z: -0.00024414062}
 --- !u!1 &686715456 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 624082133211963041, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -17693,7 +17741,7 @@ GameObject:
   - component: {fileID: 700724544}
   m_Layer: 0
   m_Name: StreetLines
-  m_TagString: Untagged
+  m_TagString: linie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31066,9 +31114,10 @@ GameObject:
   - component: {fileID: 1204008674}
   - component: {fileID: 1204008676}
   - component: {fileID: 1204008675}
+  - component: {fileID: 1204008677}
   m_Layer: 0
   m_Name: Sperrlinie (1)
-  m_TagString: Untagged
+  m_TagString: linie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31082,7 +31131,7 @@ Transform:
   m_GameObject: {fileID: 1204008673}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.38417372, z: -0, w: 0.92326087}
-  m_LocalPosition: {x: -193.61484, y: -1.3605449, z: 84.48767}
+  m_LocalPosition: {x: -193.61484, y: -1.29, z: 84.48767}
   m_LocalScale: {x: 50.071022, y: 0.008863849, z: 0.09275802}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31141,6 +31190,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204008673}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1204008677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204008673}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: -0.000009536743, z: 0.00036621094}
 --- !u!1 &1204039822 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7643619662694912043, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -31557,7 +31627,7 @@ GameObject:
   - component: {fileID: 1221056800}
   m_Layer: 0
   m_Name: Haltelinien
-  m_TagString: Untagged
+  m_TagString: linie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32905,7 +32975,7 @@ GameObject:
   - component: {fileID: 1269989849}
   m_Layer: 0
   m_Name: Sperrlinien
-  m_TagString: Untagged
+  m_TagString: linie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36725,9 +36795,10 @@ GameObject:
   - component: {fileID: 1441244348}
   - component: {fileID: 1441244350}
   - component: {fileID: 1441244349}
+  - component: {fileID: 1441244351}
   m_Layer: 0
   m_Name: Sperrlinie (8)
-  m_TagString: Untagged
+  m_TagString: linie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36800,6 +36871,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1441244347}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1441244351
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441244347}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000004, y: 1, z: 1.000002}
+  m_Center: {x: 0.00000047683716, y: 0.000030040741, z: 0}
 --- !u!1 &1442216032 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7805465231777382952, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -41177,9 +41269,10 @@ GameObject:
   - component: {fileID: 1589656498}
   - component: {fileID: 1589656500}
   - component: {fileID: 1589656499}
+  - component: {fileID: 1589656501}
   m_Layer: 0
   m_Name: Sperrlinie (7)
-  m_TagString: Untagged
+  m_TagString: linie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41252,6 +41345,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589656497}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1589656501
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589656497}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0.000030040741, z: 0.00024414062}
 --- !u!1 &1590760083 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7221745617989524397, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -41476,9 +41590,10 @@ GameObject:
   - component: {fileID: 1596717759}
   - component: {fileID: 1596717761}
   - component: {fileID: 1596717760}
+  - component: {fileID: 1596717762}
   m_Layer: 0
   m_Name: Sperrlinie (2)
-  m_TagString: Untagged
+  m_TagString: linie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41551,6 +41666,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596717758}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1596717762
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596717758}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1.0000005}
+  m_Center: {x: -0.000030517578, y: -0.00002193451, z: -0.00012207031}
 --- !u!1 &1597197151 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8611034759877159431, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -48300,9 +48436,10 @@ GameObject:
   - component: {fileID: 1875299274}
   - component: {fileID: 1875299276}
   - component: {fileID: 1875299275}
+  - component: {fileID: 1875299277}
   m_Layer: 0
   m_Name: Sperrlinie (3)
-  m_TagString: Untagged
+  m_TagString: linie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48375,6 +48512,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875299273}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1875299277
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875299273}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 1, z: 1.0000154}
+  m_Center: {x: -0.0000009536743, y: -0.00002193451, z: 0}
 --- !u!1 &1875732153 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3451495887140095815, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -52639,9 +52797,10 @@ GameObject:
   - component: {fileID: 2040924822}
   - component: {fileID: 2040924824}
   - component: {fileID: 2040924823}
+  - component: {fileID: 2040924825}
   m_Layer: 0
   m_Name: Sperrlinie (4)
-  m_TagString: Untagged
+  m_TagString: linie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52714,6 +52873,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040924821}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &2040924825
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040924821}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 1, z: 1.0000153}
+  m_Center: {x: 0.00000047683716, y: -0.00002193451, z: 0}
 --- !u!1 &2043028514 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2699155921117236322, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -60925,9 +61105,10 @@ GameObject:
   - component: {fileID: 2090742396}
   - component: {fileID: 2090742398}
   - component: {fileID: 2090742397}
+  - component: {fileID: 2090742399}
   m_Layer: 0
   m_Name: Sperrlinie (5)
-  m_TagString: Untagged
+  m_TagString: linie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61000,6 +61181,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090742395}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &2090742399
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090742395}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.00000011920929, y: -0.00002193451, z: 0}
 --- !u!1 &2093507108 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6537430876990849725, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -62440,6 +62642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sperrlinie
       objectReference: {fileID: 0}
+    - target: {fileID: 4901588587868856967, guid: 266c3bb086c4a1a4b9d29e402b901b99, type: 3}
+      propertyPath: m_TagString
+      value: linie
+      objectReference: {fileID: 0}
     - target: {fileID: 7419138367676379550, guid: 266c3bb086c4a1a4b9d29e402b901b99, type: 3}
       propertyPath: m_LocalPosition.x
       value: -227.81483
@@ -62483,7 +62689,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4901588587868856967, guid: 266c3bb086c4a1a4b9d29e402b901b99, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 643747487}
   m_SourcePrefab: {fileID: 100100000, guid: 266c3bb086c4a1a4b9d29e402b901b99, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

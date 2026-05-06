@@ -15,6 +15,7 @@ TagManager:
   - links
   - rechts
   - gerade
+  - linie
   layers:
   - Default
   - TransparentFX
