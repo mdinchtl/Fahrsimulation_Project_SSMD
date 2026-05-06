@@ -26,6 +26,10 @@ public class StreetInstructions : MonoBehaviour
         {
             message = "Fahren Sie geradeaus.";
         }
+        else if (other.CompareTag("linie"))
+        {
+            message = "Bleiben Sie in Ihrer Fahrspur!";
+        }
 
         if (!string.IsNullOrEmpty(message))
         {
