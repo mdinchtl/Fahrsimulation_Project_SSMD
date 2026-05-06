@@ -30,6 +30,11 @@ public class StreetInstructions : MonoBehaviour
         {
             message = "Bleiben Sie in Ihrer Fahrspur!";
         }
+        else if (other.CompareTag("Ground"))
+        {
+            message = "Fahren Sie auf der Straße!.";
+        }
+
 
         if (!string.IsNullOrEmpty(message))
         {
