@@ -1286,6 +1286,51 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1008278802579302583, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+--- !u!1 &49832858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 49832860}
+  - component: {fileID: 49832859}
+  m_Layer: 0
+  m_Name: Animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &49832859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49832858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c28946bccc181e4c993f55ed384d030, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  car1Animator: {fileID: 1364596779}
+--- !u!4 &49832860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49832858}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 224.20496, y: 31.241505, z: 448.16742}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &52583226 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 636934994182052052, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -34769,6 +34814,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5082256102056535251, guid: c0d249c96f9d2ef45a12954e131606aa, type: 3}
   m_PrefabInstance: {fileID: 1364596776}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1364596779 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8032146428673006358, guid: c0d249c96f9d2ef45a12954e131606aa, type: 3}
+  m_PrefabInstance: {fileID: 1364596776}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1367923644 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8210724770213613913, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -62451,3 +62501,4 @@ SceneRoots:
   - {fileID: 402361299}
   - {fileID: 1177337146}
   - {fileID: 938629641}
+  - {fileID: 49832860}
