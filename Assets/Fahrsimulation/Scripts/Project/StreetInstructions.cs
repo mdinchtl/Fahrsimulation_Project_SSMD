@@ -34,7 +34,11 @@ public class StreetInstructions : MonoBehaviour
         {
             message = "Fahren Sie auf der Straße!.";
         }
-
+        // wenn nicht strasse dann soll warnung kommen das sie auf der strasse bleiben sollen
+        else if (!other.CompareTag("Strasse"))
+        {
+            message = "Fahren Sie auf der Straße!.";
+        }
 
         if (!string.IsNullOrEmpty(message))
         {

@@ -16,6 +16,7 @@ TagManager:
   - rechts
   - gerade
   - linie
+  - Strasse
   layers:
   - Default
   - TransparentFX

@@ -32092,6 +32092,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1492500320}
   m_SourcePrefab: {fileID: 100100000, guid: 79d0ca8b77e301442afdb49f102e8aed, type: 3}
+--- !u!20 &1232527303 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 6235142770625569611, guid: 79d0ca8b77e301442afdb49f102e8aed, type: 3}
+  m_PrefabInstance: {fileID: 1232527302}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1235003443 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5973044509970772655, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -36400,6 +36405,7 @@ GameObject:
   - component: {fileID: 1425739362}
   - component: {fileID: 1425739361}
   - component: {fileID: 1425739360}
+  - component: {fileID: 1425739363}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Ground
@@ -36482,6 +36488,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1425739363
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425739359}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1425753810 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7837200952473946580, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -37864,7 +37891,7 @@ RectTransform:
   m_GameObject: {fileID: 1480151249}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.00029122}
-  m_LocalScale: {x: 3.947739, y: 3.947739, z: 3.947739}
+  m_LocalScale: {x: 2.7845771, y: 2.7845771, z: 2.7845771}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1555662875}
@@ -40262,8 +40289,8 @@ Canvas:
   m_GameObject: {fileID: 1555662871}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_RenderMode: 0
+  m_Camera: {fileID: 1232527303}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -53704,6 +53731,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 3.5
       objectReference: {fileID: 0}
+    - target: {fileID: -9061579438512240678, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -9047524332331131399, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -9018275553395994478, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -8978142618003969256, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -8890775358533538056, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -8752885151648124406, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -8699542089258502908, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.1
@@ -53760,9 +53811,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8636491962610493310, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -8595406235232589007, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8582261379174825844, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -8494593697972831108, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -8445131354209172125, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -8432691772858376671, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -8380165722240702221, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -8373781110457874953, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -8305651769112902035, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -8281484272722021268, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -8278596428948684936, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -8228553992380356199, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -8218080811455138961, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53804,9 +53899,17 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.5
       objectReference: {fileID: 0}
+    - target: {fileID: -8120214058061676693, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -8105570977268571505, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8079289904547908075, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -7915728024735868685, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53816,17 +53919,81 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -15.1
       objectReference: {fileID: 0}
+    - target: {fileID: -7783415815269471359, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -7730487933057483079, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -7686680302323315496, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -7672325346413494160, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -7629469119247029140, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7407389744366476181, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -7381686599386278672, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -7260808157638869172, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -7237027372293395907, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -7173769531516719347, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -7135540649199791909, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -7108265201667096559, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -7086808867870106129, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -7060684987142414011, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -7037724615275588741, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -6966025059357268574, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.3
       objectReference: {fileID: 0}
+    - target: {fileID: -6914133527333740591, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -6905572806729573397, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 4.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -6880597780785174861, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -6690211676794635505, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53836,9 +54003,25 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -3
       objectReference: {fileID: 0}
+    - target: {fileID: -6678263523046052301, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -6675277840892395513, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -6657702034273450589, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -6617792478988583865, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -6494772113104635005, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -6399454619477341966, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53884,6 +54067,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -2.7
       objectReference: {fileID: 0}
+    - target: {fileID: -6068931456566348360, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -6047694000500480487, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.1
@@ -53912,6 +54099,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -9.2
       objectReference: {fileID: 0}
+    - target: {fileID: -5973001224926418570, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -5914940612064236805, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -5900038540721360772, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.8
@@ -53919,6 +54114,10 @@ PrefabInstance:
     - target: {fileID: -5900038540721360772, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5881037363315576285, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -5870212909124276240, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53931,6 +54130,30 @@ PrefabInstance:
     - target: {fileID: -5870212909124276240, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: -6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -5861067282549535531, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -5842838321385768814, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -5834683261466637785, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -5734324377379158046, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -5681905664544239364, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -5674961572977218972, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -5616203724374515799, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53976,6 +54199,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 88.318
       objectReference: {fileID: 0}
+    - target: {fileID: -5396867806660502033, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -5276180749525318203, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.4
@@ -53984,13 +54211,25 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 7.5
       objectReference: {fileID: 0}
+    - target: {fileID: -5144650448524482229, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -5115070908972930015, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.3
       objectReference: {fileID: 0}
+    - target: {fileID: -5082788599209243509, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -5072592767176189860, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -5035725322104692492, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -5020150082966175821, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -54000,9 +54239,57 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -5.4
       objectReference: {fileID: 0}
+    - target: {fileID: -4971541718118084033, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -4842398899112853678, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -4837304313051439572, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -4822544840621268395, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -4704865112744883389, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -4667419172852067487, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -4667181122826691623, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -4495783345601056665, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -4486601261710170937, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -4473839459650448974, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -4430503621565481579, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -4344122411553987967, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -4326899010887864898, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -4314583285183557103, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54016,6 +54303,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 3.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4221685227715888331, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -4201592659673752715, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -4198883403895425548, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -4165876754824187349, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.6
@@ -54024,6 +54323,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -4
       objectReference: {fileID: 0}
+    - target: {fileID: -3919626827770446329, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -3896041770272671155, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -3874643020091770536, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -3791569399476896865, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -3778147728153506354, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -3727953513184438393, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -3504592856721145042, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.4
@@ -54031,6 +54354,10 @@ PrefabInstance:
     - target: {fileID: -3504592856721145042, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -3469777280109513473, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -3307494529196380826, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54048,6 +54375,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: -3007535584352062103, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -3003549658804436657, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.7
@@ -54064,6 +54395,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -2.5
       objectReference: {fileID: 0}
+    - target: {fileID: -2932396876509781441, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -2869947445882863554, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -2695349999789206294, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -2673219723443084101, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 2.4
@@ -54071,6 +54414,22 @@ PrefabInstance:
     - target: {fileID: -2636079000960058671, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2627324594783820780, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -2486897076770592450, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -2263966718224117533, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -2146303656115679144, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -2083647363180817684, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54108,6 +54467,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.252
       objectReference: {fileID: 0}
+    - target: {fileID: -2050961646521770117, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -1916421366454625027, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -1907833020178282400, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 5.7
@@ -54127,6 +54494,18 @@ PrefabInstance:
     - target: {fileID: -1820570060510178469, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -1804676408669423598, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -1737208294335037884, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -1716636399452564190, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -1674468072413301062, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54168,6 +54547,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -2.8
       objectReference: {fileID: 0}
+    - target: {fileID: -1449371050018321221, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -1401946527976361004, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.8
@@ -54184,6 +54567,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 6.5
       objectReference: {fileID: 0}
+    - target: {fileID: -1350747110905635356, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -1301409859469813436, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18
@@ -54192,9 +54579,37 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 6.9
       objectReference: {fileID: 0}
+    - target: {fileID: -1158327527225015666, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -1109569322819354232, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -1066402246693234493, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -990184347045484132, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -973475123136361982, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -971823017305350417, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -969340370539930340, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -881141478465161300, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -876745242395893060, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54204,9 +54619,37 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -3.7
       objectReference: {fileID: 0}
+    - target: {fileID: -782104378724495036, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -747279246226564266, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -726864699148584741, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -701372776685499773, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -614257169588191255, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -587246509361477584, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -559977295389650778, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -489895543711731320, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: -463136040265278749, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54248,6 +54691,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 8.2
       objectReference: {fileID: 0}
+    - target: {fileID: -284181766934350718, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: -223126079414934783, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: -126155995006987155, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.6
@@ -54288,9 +54739,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.626
       objectReference: {fileID: 0}
+    - target: {fileID: -631134079805037, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 88775721238268557, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 199330209304632352, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 253654336907435009, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 259604699306020796, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 304858226873265442, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 426132949607798238, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 468248369371093810, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54304,6 +54779,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.7
       objectReference: {fileID: 0}
+    - target: {fileID: 499196640142782101, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 531623319701967873, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 597676031937405362, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.8
@@ -54311,6 +54794,18 @@ PrefabInstance:
     - target: {fileID: 597676031937405362, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 18.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 625893966608983529, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 792657610181075858, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 795976823002328335, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 811026979608518223, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54344,6 +54839,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -12.3
       objectReference: {fileID: 0}
+    - target: {fileID: 878374962808422446, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 880868091202073816, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0
@@ -54351,6 +54850,14 @@ PrefabInstance:
     - target: {fileID: 880868091202073816, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: -6.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 899194458582978892, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 911227566489801353, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_Name
@@ -54372,6 +54879,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -5.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1145659618666256190, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 1272826638488421103, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277526746211326890, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349307173152386765, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519156555144467845, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 1571556613621013064, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0
@@ -54379,6 +54906,18 @@ PrefabInstance:
     - target: {fileID: 1571556613621013064, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: -8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1753270938475038375, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754545743228589617, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755905596567810389, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 1789016504440440798, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54392,6 +54931,22 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 8.6
       objectReference: {fileID: 0}
+    - target: {fileID: 1897923723415033567, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 2022286919354046483, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 2125826217753514855, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150275271200670829, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 2314589766301309194, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 4.4
@@ -54400,13 +54955,37 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 2.9
       objectReference: {fileID: 0}
+    - target: {fileID: 2370429878771113621, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 2397083190113257714, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.4
       objectReference: {fileID: 0}
+    - target: {fileID: 2517345749689787968, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 2544931224055245983, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600363646250044889, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 2606175157677868527, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 2626255951995421246, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739226839976159116, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 2788692398171767997, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54428,6 +55007,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 2851208353184238848, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 2862140659733519288, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7
@@ -54448,6 +55031,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 3.6
       objectReference: {fileID: 0}
+    - target: {fileID: 2976293880953809638, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997957708968365651, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 3037663814448014880, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.4
@@ -54455,6 +55046,18 @@ PrefabInstance:
     - target: {fileID: 3037663814448014880, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 4.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3040123093643030224, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 3070429216612745885, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074867642489082783, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 3084323487696858677, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54472,6 +55075,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -1.7
       objectReference: {fileID: 0}
+    - target: {fileID: 3181750301394350680, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 3225862832436256675, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 3316934236365258413, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.3
@@ -54484,13 +55095,49 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -5.6
       objectReference: {fileID: 0}
+    - target: {fileID: 3391772783066966622, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 3438516122479590110, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3451495887140095815, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 3555923755827460705, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 3592786122690974624, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789307841306545030, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 3808367828518926911, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827873911205431712, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864099206983284804, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 3885204755295173100, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890433059610368746, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 3984890494944843905, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -54500,9 +55147,17 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4131709906280978505, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 4175127917965347163, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351567935361197764, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 4450103641404835501, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54516,6 +55171,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -3.1
       objectReference: {fileID: 0}
+    - target: {fileID: 4456907187754665812, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 4537277285918846120, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.73
@@ -54528,6 +55187,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -2.23
       objectReference: {fileID: 0}
+    - target: {fileID: 4553629167990407257, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608780704999542468, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 4634238108848406223, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.6
@@ -54536,9 +55203,37 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4636390652761212713, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688505212539074619, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742806189580631394, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 4757101740351365393, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 4844344347986708838, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 4886649855010812961, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058362365186041563, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 5074084183998630465, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 5157927749168221467, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54564,6 +55259,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -3.8
       objectReference: {fileID: 0}
+    - target: {fileID: 5367141571678943174, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 5415137453154456604, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 5531787249511559629, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754216122932000176, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 5777955590111150870, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 5784058397856660883, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -54575,6 +55290,14 @@ PrefabInstance:
     - target: {fileID: 5784058397856660883, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788566036460940127, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 5885978191989993063, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 5887106176690887305, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -54588,6 +55311,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.7
       objectReference: {fileID: 0}
+    - target: {fileID: 6074218961162378278, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 6134526830245687295, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 6237420005906714368, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.3
@@ -54596,9 +55327,41 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 1.6
       objectReference: {fileID: 0}
+    - target: {fileID: 6352972223794449329, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 6575344295534527387, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618569658501494701, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643594023836574630, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 6653186541691469408, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 6686483914467103129, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 6715925098714124256, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806505059316588173, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813873367671615360, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 6969885905916711621, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54616,6 +55379,38 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7004020040640729243, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7006427370615056413, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7100596510776794820, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7106138069029843992, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7133431560813565014, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7167835799208209990, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7179051717504923375, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7221745617989524397, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 7231385804580624056, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.3
@@ -54628,6 +55423,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -5.8
       objectReference: {fileID: 0}
+    - target: {fileID: 7242789236322492756, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7338719963474288206, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7415066834667632386, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 7454666060046876497, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0
@@ -54636,13 +55443,53 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -5.6
       objectReference: {fileID: 0}
+    - target: {fileID: 7491039409556353687, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504850214133442786, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7557503844736828789, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7628600809835084448, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692776913150725587, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 7771981950804471842, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1
       objectReference: {fileID: 0}
+    - target: {fileID: 7801386017678090600, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 7814430590862497940, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915880573678067388, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8079714419496650072, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143933007586854601, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8173725482258070446, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 8301649385944098098, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54652,9 +55499,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.1
       objectReference: {fileID: 0}
+    - target: {fileID: 8303558350983195188, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327231303515360680, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 8367369876874825651, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410977433288634570, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 8426275811908196574, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54668,9 +55527,29 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -4.41
       objectReference: {fileID: 0}
+    - target: {fileID: 8478763688579419862, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614277442661408228, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8627154299028121283, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766774415604770452, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
+      objectReference: {fileID: 0}
     - target: {fileID: 8816069782572253295, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8907112495140947854, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     - target: {fileID: 9143040196770458221, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54711,6 +55590,10 @@ PrefabInstance:
     - target: {fileID: 9143040196770458221, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -80.21301
+      objectReference: {fileID: 0}
+    - target: {fileID: 9149131346627830947, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+      propertyPath: m_TagString
+      value: Strasse
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
