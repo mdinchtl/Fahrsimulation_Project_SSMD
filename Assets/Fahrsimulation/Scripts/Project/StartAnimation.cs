@@ -12,14 +12,12 @@ public class StartAnimation : MonoBehaviour
     public Animator car8Animator;
     public Animator car9Animator;
 
-    public Collider ColliderCar1;
-    public Collider ColliderCar2;
-    public Collider ColliderCar3;
-    public Collider ColliderCar4;
+    public Collider ColliderCar1_3;
+    public Collider ColliderCar2_4;
     public Collider ColliderCar5;
     public Collider ColliderCar6;
     public Collider ColliderCar7;
-    public Collider ColliderCar8;
+    public Collider ColliderCar8_9;
     public Collider ColliderCar9;
 
     void Start()

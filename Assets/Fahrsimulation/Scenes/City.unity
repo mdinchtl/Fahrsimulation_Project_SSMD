@@ -1324,15 +1324,13 @@ MonoBehaviour:
   car7Animator: {fileID: 1112184260}
   car8Animator: {fileID: 1044818651}
   car9Animator: {fileID: 1952705972}
-  ColliderCar1: {fileID: 382627202}
-  ColliderCar2: {fileID: 0}
-  ColliderCar3: {fileID: 0}
-  ColliderCar4: {fileID: 0}
-  ColliderCar5: {fileID: 0}
-  ColliderCar6: {fileID: 0}
-  ColliderCar7: {fileID: 0}
-  ColliderCar8: {fileID: 0}
-  ColliderCar9: {fileID: 0}
+  ColliderCar1_3: {fileID: 382627202}
+  ColliderCar2_4: {fileID: 1423648060}
+  ColliderCar5: {fileID: 674666358}
+  ColliderCar6: {fileID: 474946528}
+  ColliderCar7: {fileID: 1804198120}
+  ColliderCar8_9: {fileID: 1847744112}
+  ColliderCar9: {fileID: 1645923043}
 --- !u!4 &49832860
 Transform:
   m_ObjectHideFlags: 0
@@ -9184,7 +9182,7 @@ GameObject:
   - component: {fileID: 382627203}
   - component: {fileID: 382627202}
   m_Layer: 0
-  m_Name: ColliderCar1
+  m_Name: ColliderCar1/3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11611,6 +11609,68 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2867930652005439235, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+--- !u!1 &474946526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 474946527}
+  - component: {fileID: 474946529}
+  - component: {fileID: 474946528}
+  m_Layer: 0
+  m_Name: ColliderCar6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &474946527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474946526}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.48048246, z: -0, w: 0.8770043}
+  m_LocalPosition: {x: 304.53, y: 1.5922582, z: -19.49}
+  m_LocalScale: {x: 4.197623, y: 0.2806663, z: 0.17274393}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1496894031}
+  m_LocalEulerAnglesHint: {x: 0, y: 57.434, z: 0}
+--- !u!65 &474946528
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474946526}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &474946529
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474946526}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &476030331 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5357260703399045470, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -16888,6 +16948,68 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 206234362994358121, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+--- !u!1 &674666356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 674666357}
+  - component: {fileID: 674666359}
+  - component: {fileID: 674666358}
+  m_Layer: 0
+  m_Name: ColliderCar5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &674666357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674666356}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.48048246, z: -0, w: 0.8770043}
+  m_LocalPosition: {x: 262.92, y: 1.5922582, z: -40.19}
+  m_LocalScale: {x: 4.197623, y: 0.2806663, z: 0.17274393}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1496894031}
+  m_LocalEulerAnglesHint: {x: 0, y: 57.434, z: 0}
+--- !u!65 &674666358
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674666356}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &674666359
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674666356}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &674870023 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3242371591817144844, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -36424,6 +36546,68 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8261117687744543284, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+--- !u!1 &1423648058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1423648059}
+  - component: {fileID: 1423648061}
+  - component: {fileID: 1423648060}
+  m_Layer: 0
+  m_Name: ColliderCar2/4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1423648059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423648058}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.4465481, z: -0, w: 0.89475965}
+  m_LocalPosition: {x: 54.58, y: 1.5922582, z: 45.74}
+  m_LocalScale: {x: 4.197623, y: 0.2806663, z: 0.17274393}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1496894031}
+  m_LocalEulerAnglesHint: {x: 0, y: 53.045, z: 0}
+--- !u!65 &1423648060
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423648058}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1423648061
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423648058}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1424633506 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4889028936353012283, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -38531,6 +38715,12 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 382627201}
+  - {fileID: 1423648059}
+  - {fileID: 674666357}
+  - {fileID: 474946527}
+  - {fileID: 1804198119}
+  - {fileID: 1847744111}
+  - {fileID: 1645923042}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1497377042 stripped
@@ -42931,6 +43121,68 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3461931897914398518, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+--- !u!1 &1645923041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1645923042}
+  - component: {fileID: 1645923044}
+  - component: {fileID: 1645923043}
+  m_Layer: 0
+  m_Name: ColliderCar9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1645923042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645923041}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.78282094, z: -0, w: 0.6222471}
+  m_LocalPosition: {x: 478.4, y: 1.5922582, z: -14.4}
+  m_LocalScale: {x: 4.19762, y: 0.28067, z: 0.17274}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1496894031}
+  m_LocalEulerAnglesHint: {x: 0, y: 103.039, z: 0}
+--- !u!65 &1645923043
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645923041}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1645923044
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645923041}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1646434940 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4012377802379731478, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -46770,6 +47022,68 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1831871527544603705, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+--- !u!1 &1804198118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1804198119}
+  - component: {fileID: 1804198121}
+  - component: {fileID: 1804198120}
+  m_Layer: 0
+  m_Name: ColliderCar7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1804198119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804198118}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7102419, z: -0, w: 0.7039577}
+  m_LocalPosition: {x: 355.29, y: 1.5922582, z: -5.87}
+  m_LocalScale: {x: 4.19762, y: 0.28067, z: 0.17274}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1496894031}
+  m_LocalEulerAnglesHint: {x: 0, y: 90.509, z: 0}
+--- !u!65 &1804198120
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804198118}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1804198121
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804198118}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1804447596 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4658063853379699142, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -47731,6 +48045,68 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1891213839695358387, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+--- !u!1 &1847744110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1847744111}
+  - component: {fileID: 1847744113}
+  - component: {fileID: 1847744112}
+  m_Layer: 0
+  m_Name: ColliderCar8/9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1847744111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847744110}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7102419, z: -0, w: 0.7039577}
+  m_LocalPosition: {x: 425.88, y: 1.5922582, z: -7.24}
+  m_LocalScale: {x: 4.19762, y: 0.28067, z: 0.17274}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1496894031}
+  m_LocalEulerAnglesHint: {x: 0, y: 90.509, z: 0}
+--- !u!65 &1847744112
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847744110}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1847744113
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847744110}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1849956336 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7197691777577438041, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
