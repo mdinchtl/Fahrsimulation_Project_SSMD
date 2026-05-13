@@ -17,6 +17,13 @@ TagManager:
   - gerade
   - linie
   - Strasse
+  - ColliderCar1_3
+  - ColliderCar2_4
+  - ColliderCar5
+  - ColliderCar6
+  - ColliderCar7
+  - ColliderCar8_9
+  - ColliderCar9
   layers:
   - Default
   - TransparentFX
