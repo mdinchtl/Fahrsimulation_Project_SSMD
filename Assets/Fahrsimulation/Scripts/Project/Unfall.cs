@@ -9,7 +9,7 @@ public class Unfall : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("MyCar"))
         {
-            StartCoroutine(LoadGameWithDelay(2f));
+            StartCoroutine(LoadGameWithDelay(1.5f));
         }
     }
     private IEnumerator LoadGameWithDelay(float delay)

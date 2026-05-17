@@ -13,42 +13,42 @@ public class StartAnimation : MonoBehaviour
     public Animator car9Animator;
 
     
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("ColliderCar1_3"))
+        if (other.CompareTag("ColliderCar1_3"))
         {
+            Debug.Log("ColliderCar1_3 triggered");
             car1Animator.SetTrigger("On");
             car3Animator.SetTrigger("On");
-            Debug.Log("ColliderCar1_3 triggered");
         }
-        if (collision.gameObject.CompareTag("ColliderCar2_4"))
+        if (other.CompareTag("ColliderCar2_4"))
         {
             car2Animator.SetTrigger("On");
             car4Animator.SetTrigger("On");
         }
-        if (collision.gameObject.CompareTag("ColliderCar5"))
+        if (other.CompareTag("ColliderCar5"))
         {
             car5Animator.SetTrigger("On");
         }
-        if (collision.gameObject.CompareTag("ColliderCar6"))
+        if (other.CompareTag("ColliderCar6"))
         {
             car6Animator.SetTrigger("On");
         }
-        if (collision.gameObject.CompareTag("ColliderCar7"))
+        if (other.CompareTag("ColliderCar7_9"))
         {
+            car9Animator.SetTrigger("On");
             car7Animator.SetTrigger("On");
         }
-        if (collision.gameObject.CompareTag("ColliderCar8_9"))
+        if (other.CompareTag("ColliderCar8"))
         {
             car8Animator.SetTrigger("On");
-            car9Animator.SetTrigger("On");
         }
-        if (collision.gameObject.CompareTag("ColliderCar9"))
+        if (other.CompareTag("ColliderCar9"))
         {
             car9Animator.SetTrigger("On");
         }
     }
-    
+
 
 
 }

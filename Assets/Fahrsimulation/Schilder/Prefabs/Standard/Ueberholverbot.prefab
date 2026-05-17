@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31ae5756bf623354d869de7b4a7b7d73, type: 2}
+  - {fileID: 2100000, guid: 261ffdf6e64f5f9489791ed11cdfe84c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -206,7 +206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2125223102453692500}
   m_Layer: 0
-  m_Name: Rechtsabbiegverbot
+  m_Name: Ueberholverbot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -400,7 +400,7 @@ PrefabInstance:
     - target: {fileID: 8442510506162454399, guid: 04b556e739a27e6419f08f25d06147a7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: b81b14a0f3022e94b95c9727def8f73e, type: 2}
+      objectReference: {fileID: 2100000, guid: 31ae5756bf623354d869de7b4a7b7d73, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -18,26 +18,17 @@ public class StreetInstructions : MonoBehaviour
         {
             message = "Biegen Sie rechts ab.";
         }
-        else if (other.CompareTag("links"))
+        if (other.CompareTag("links"))
         {
             message = "Biegen Sie links ab.";
         }
-        else if (other.CompareTag("gerade"))
+        if (other.CompareTag("gerade"))
         {
             message = "Fahren Sie geradeaus.";
         }
-        else if (other.CompareTag("linie"))
+        if (other.CompareTag("linie"))
         {
             message = "Bleiben Sie in Ihrer Fahrspur!";
-        }
-        else if (other.CompareTag("Ground"))
-        {
-            message = "Fahren Sie auf der Straße!.";
-        }
-        // wenn nicht strasse dann soll warnung kommen das sie auf der strasse bleiben sollen
-        else if (!other.CompareTag("Strasse"))
-        {
-            message = "Fahren Sie auf der Straße!.";
         }
 
         if (!string.IsNullOrEmpty(message))
@@ -48,6 +39,19 @@ public class StreetInstructions : MonoBehaviour
             }
 
             currentRoutine = StartCoroutine(ShowTextForSeconds(message, 3f));
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+            {
+            if (currentRoutine != null)
+            {
+                StopCoroutine(currentRoutine);
+            }
+
+            currentRoutine = StartCoroutine(ShowTextForSeconds("Fahren Sie auf der Straße!.", 3f));
         }
     }
 
