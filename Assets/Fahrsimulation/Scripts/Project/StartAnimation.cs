@@ -11,8 +11,9 @@ public class StartAnimation : MonoBehaviour
     public Animator car7Animator;
     public Animator car8Animator;
     public Animator car9Animator;
+    public Animator car10Animator;
 
-    
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("ColliderCar1_3"))
@@ -46,6 +47,10 @@ public class StartAnimation : MonoBehaviour
         if (other.CompareTag("ColliderCar9"))
         {
             car9Animator.SetTrigger("On");
+        }
+        if (other.CompareTag("ColliderCar10"))
+        {
+            car10Animator.SetTrigger("On");
         }
     }
 
