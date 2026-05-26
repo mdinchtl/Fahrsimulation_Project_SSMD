@@ -11,7 +11,7 @@ public class OnTrack : MonoBehaviour
     !other.CompareTag("links") &&
     !other.CompareTag("rechts") &&
     !other.CompareTag("gerade") &&
-    !other.CompareTag("Linie") &&
+    !other.CompareTag("linie") &&
     !other.CompareTag("Strasse")
         )
         {
