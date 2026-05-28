@@ -39,6 +39,7 @@ public class StreetInstructions : MonoBehaviour
             }
 
             currentRoutine = StartCoroutine(ShowTextForSeconds(message, 3f));
+            ScoreSystem.score += 1; 
         }
     }
 
@@ -52,6 +53,7 @@ public class StreetInstructions : MonoBehaviour
             }
 
             currentRoutine = StartCoroutine(ShowTextForSeconds("Fahren Sie auf der Straße!.", 3f));
+            
         }
     }
 
