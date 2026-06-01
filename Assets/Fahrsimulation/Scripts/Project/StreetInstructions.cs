@@ -6,6 +6,8 @@ public class StreetInstructions : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI textField;
 
+    public ScoreSystem scoreSystem;
+
     private Coroutine currentRoutine;
 
     private void OnTriggerEnter(Collider other)
@@ -35,11 +37,11 @@ public class StreetInstructions : MonoBehaviour
         {
             if (currentRoutine != null)
             {
-                StopCoroutine(currentRoutine);
+                // StopCoroutine(currentRoutine);
             }
 
             currentRoutine = StartCoroutine(ShowTextForSeconds(message, 3f));
-            ScoreSystem.score += 1; 
+            scoreSystem.score += 1; 
         }
     }
 
