@@ -37,7 +37,7 @@ public class StreetInstructions : MonoBehaviour
         {
             if (currentRoutine != null)
             {
-                // StopCoroutine(currentRoutine);
+                StopCoroutine(currentRoutine);
             }
 
             currentRoutine = StartCoroutine(ShowTextForSeconds(message, 3f));
