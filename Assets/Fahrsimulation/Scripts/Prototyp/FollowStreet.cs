@@ -9,7 +9,7 @@ public class FollowStreet : MonoBehaviour
     {
         if (other.CompareTag("Ground"))
         {
-            Text.text = "Du befindest dich nicht mehr auf der Spur !";
+            Text.text = "";
             Benotung.punkte -= 1;
 
         }

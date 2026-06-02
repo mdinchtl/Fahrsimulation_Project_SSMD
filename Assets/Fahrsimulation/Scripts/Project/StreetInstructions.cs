@@ -54,7 +54,7 @@ public class StreetInstructions : MonoBehaviour
                 StopCoroutine(currentRoutine);
             }
 
-            currentRoutine = StartCoroutine(ShowTextForSeconds("Fahren Sie auf der Straße!.", 3f));
+            currentRoutine = StartCoroutine(ShowTextForSeconds("", 3f));
             
         }
     }

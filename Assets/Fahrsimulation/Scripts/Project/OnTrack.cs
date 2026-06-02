@@ -1,29 +1,42 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class OnTrack : MonoBehaviour
 {
-    // public TextMeshProUGUI Text;
-    // private void OnTriggerStay(Collider other)
-    // {
-    //     if (
-    // !other.CompareTag("Vorrangstraße") &&
-    // !other.CompareTag("links") &&
-    // !other.CompareTag("rechts") &&
-    // !other.CompareTag("gerade") &&
-    // !other.CompareTag("linie") &&
-    // !other.CompareTag("Strasse")
-    //     )
-    //     {
-    //         Text.text = "Du befindest dich nicht mehr auf der Spur !";
+    public TextMeshProUGUI Text;
 
-    //     }
-    // }
-    //private void OnTriggerExit(Collider other)
-    //{
-    //    if (other.CompareTag("Ground"))
-    //    {
-    //        Text.text = "";
-    //    }
-    //}
+    private Coroutine clearRoutine;
+    private bool isOffRoad = false;
+
+    void Update()
+    {
+        bool onRoad = Physics.Raycast(transform.position, Vector3.down, 2f);
+
+        if (!onRoad && !isOffRoad)
+        {
+            isOffRoad = true;
+            ShowMessage();
+        }
+        else if (onRoad && isOffRoad)
+        {
+            isOffRoad = false;
+        }
+    }
+
+    void ShowMessage()
+    {
+        Text.text = "Du bist von der Fahrbahn abgekommen";
+
+        if (clearRoutine != null)
+            StopCoroutine(clearRoutine);
+
+        clearRoutine = StartCoroutine(ClearAfterTime());
+    }
+
+    IEnumerator ClearAfterTime()
+    {
+        yield return new WaitForSeconds(3f);
+        Text.text = "";
+    }
 }
