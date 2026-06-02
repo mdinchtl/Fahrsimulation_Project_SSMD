@@ -41,7 +41,7 @@ public class StreetInstructions : MonoBehaviour
             }
 
             currentRoutine = StartCoroutine(ShowTextForSeconds(message, 3f));
-            scoreSystem.score += 1; 
+            // scoreSystem.score += 1; 
         }
     }
 
