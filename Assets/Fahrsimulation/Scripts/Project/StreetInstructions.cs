@@ -31,6 +31,7 @@ public class StreetInstructions : MonoBehaviour
         if (other.CompareTag("linie"))
         {
             message = "Bleiben Sie in Ihrer Fahrspur!";
+            scoreSystem.score += 2;
         }
 
         if (!string.IsNullOrEmpty(message))
@@ -41,7 +42,7 @@ public class StreetInstructions : MonoBehaviour
             }
 
             currentRoutine = StartCoroutine(ShowTextForSeconds(message, 3f));
-            // scoreSystem.score += 1; 
+            
         }
     }
 
