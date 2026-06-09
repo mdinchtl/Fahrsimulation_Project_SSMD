@@ -25,6 +25,7 @@ TagManager:
   - ColliderCar7_9
   - ColliderCar8
   - ColliderCar10
+  - Wrong
   layers:
   - Default
   - TransparentFX
