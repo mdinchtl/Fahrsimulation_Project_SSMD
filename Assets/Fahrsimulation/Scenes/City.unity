@@ -2997,6 +2997,68 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4957943353695839708, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
+--- !u!1 &134664659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 134664660}
+  - component: {fileID: 134664662}
+  - component: {fileID: 134664661}
+  m_Layer: 0
+  m_Name: WrongPath
+  m_TagString: WrongPath
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &134664660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134664659}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.3949103, z: -0, w: 0.9187197}
+  m_LocalPosition: {x: 49.33, y: -1.0807724, z: 59.98}
+  m_LocalScale: {x: 6.5128975, y: 0.28067, z: 0.7082479}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 293779387}
+  m_LocalEulerAnglesHint: {x: 0, y: -91.88, z: 0}
+--- !u!65 &134664661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134664659}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &134664662
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134664659}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &135896922 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4917056234901673211, guid: 9050758bf8f0699438d019d62e3b1cb3, type: 3}
@@ -7013,6 +7075,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1314243339}
+  - {fileID: 134664660}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &294571959 stripped

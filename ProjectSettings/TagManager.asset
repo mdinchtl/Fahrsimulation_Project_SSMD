@@ -26,6 +26,7 @@ TagManager:
   - ColliderCar8
   - ColliderCar10
   - Wrong
+  - WrongPath
   layers:
   - Default
   - TransparentFX

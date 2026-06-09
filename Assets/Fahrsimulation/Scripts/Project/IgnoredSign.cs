@@ -10,6 +10,11 @@ public class IgnoredSign : MonoBehaviour
         {
             scoreSystem.score += 3;
         }
+
+        if (other.CompareTag("WrongPath"))
+        {
+            scoreSystem.score += 1;
+        }
     }
     
 }
