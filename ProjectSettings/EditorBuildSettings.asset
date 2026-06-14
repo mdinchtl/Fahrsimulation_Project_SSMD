@@ -11,12 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Fahrsimulation/Scenes/GameOver.unity
     guid: 1b51b7619d6f2254eb5a02a844f3f502
-  - enabled: 0
-    path: Assets/Fahrsimulation/Scenes/Success.unity
-    guid: bd5782449980e7d428887797447259ab
-  - enabled: 0
-    path: Assets/Fahrsimulation/Scenes/Fail.unity
-    guid: 190608517e5048540b665e90211dc802
+  - enabled: 1
+    path: Assets/Fahrsimulation/Scenes/Rating.unity
+    guid: 29744f42e605c6243b5627ddbbf21adb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

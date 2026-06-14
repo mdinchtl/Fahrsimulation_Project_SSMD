@@ -17,8 +17,6 @@ public class StartAnimation : MonoBehaviour
     {
         if (other.CompareTag("ColliderCar1_3"))
         {
-            Debug.Log("ColliderCar1_3 triggered");
-
             if (car1Animator != null)
                 car1Animator.SetTrigger("On");
 

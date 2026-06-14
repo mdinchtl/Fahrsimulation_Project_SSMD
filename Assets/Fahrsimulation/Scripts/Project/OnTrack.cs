@@ -30,7 +30,6 @@ public class OnTrack : MonoBehaviour
         Text.text = "Du bist von der Fahrbahn abgekommen";
         scoreSystem.score += 4;
 
-
         if (clearRoutine != null)
             StopCoroutine(clearRoutine);
 
