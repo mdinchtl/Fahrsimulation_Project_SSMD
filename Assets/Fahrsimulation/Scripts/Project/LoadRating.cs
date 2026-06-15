@@ -6,8 +6,9 @@ public class LoadRating : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("MyCar"))
+        if (other.CompareTag("Goal"))
         {
+            Debug.Log("Goal reached!");
             StartCoroutine(LoadGameWithDelay(1.5f));
         }
     }
