@@ -31,7 +31,7 @@ public class StreetInstructions : MonoBehaviour
         if (other.CompareTag("linie"))
         {
             message = "Bleiben Sie in Ihrer Fahrspur!";
-            scoreSystem.score += 2;
+            scoreSystem.score += 1;
         }
 
         if (!string.IsNullOrEmpty(message))
