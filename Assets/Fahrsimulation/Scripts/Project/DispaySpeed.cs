@@ -47,7 +47,7 @@ public class DisplaySpeed : MonoBehaviour
     {
         if (other.CompareTag("Kinderzone"))
         {
-            limit = 20f;
+            limit = 25f;
         }
     }
 }
