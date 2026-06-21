@@ -6,7 +6,7 @@ public class StreetInstructions : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI textField;
 
-    public ScoreSystem scoreSystem;
+    public ScoreManager scoreSystem;
 
     private Coroutine currentRoutine;
 
@@ -32,6 +32,11 @@ public class StreetInstructions : MonoBehaviour
         {
             message = "Bleiben Sie in Ihrer Fahrspur!";
             scoreSystem.score += 1;
+            scoreSystem.typOfError.Add("Line Crossing");
+        }
+        if (other.CompareTag("WrongPath"))
+        {
+            message = "Falsch abgebogen";
         }
 
         if (!string.IsNullOrEmpty(message))

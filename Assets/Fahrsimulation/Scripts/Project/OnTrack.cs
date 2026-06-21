@@ -8,7 +8,7 @@ public class OnTrack : MonoBehaviour
 
     private Coroutine clearRoutine;
     private bool isOffRoad = false;
-    public ScoreSystem scoreSystem;
+    public ScoreManager scoreSystem;
 
     void Update()
     {
@@ -29,6 +29,7 @@ public class OnTrack : MonoBehaviour
     {
         Text.text = "Du bist von der Fahrbahn abgekommen";
         scoreSystem.score += 4;
+        scoreSystem.typOfError.Add("Drove Off Road");
 
         if (clearRoutine != null)
             StopCoroutine(clearRoutine);

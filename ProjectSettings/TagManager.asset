@@ -28,6 +28,7 @@ TagManager:
   - Wrong
   - WrongPath
   - Goal
+  - Kinderzone
   layers:
   - Default
   - TransparentFX
