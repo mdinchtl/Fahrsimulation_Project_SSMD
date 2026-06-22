@@ -29,6 +29,8 @@ TagManager:
   - WrongPath
   - Goal
   - Kinderzone
+  - NoRightTurn
+  - PassBy
   layers:
   - Default
   - TransparentFX

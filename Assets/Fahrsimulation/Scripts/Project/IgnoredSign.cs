@@ -6,10 +6,22 @@ public class IgnoredSign : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.CompareTag("NoRightTurn"))
+        {
+            scoreSystem.score += 3;
+            scoreSystem.typOfError.Add("turned into a prohibited street.");
+        }
+
         if (other.CompareTag("Wrong"))
         {
             scoreSystem.score += 3;
-            scoreSystem.typOfError.Add("Ignored Sign");
+            scoreSystem.typOfError.Add("Did not yield the right of way");
+        }
+
+        if (other.CompareTag("PassBy"))
+        {
+            scoreSystem.score += 3;
+            scoreSystem.typOfError.Add("A car overtook in a no-overtaking zone.");
         }
 
         if (other.CompareTag("WrongPath"))
@@ -17,6 +29,8 @@ public class IgnoredSign : MonoBehaviour
             scoreSystem.score += 1;
             scoreSystem.typOfError.Add("Drove Wrong Path");
         }
+
+
     }
     
 }

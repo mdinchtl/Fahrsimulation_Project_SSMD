@@ -38,6 +38,11 @@ public class StreetInstructions : MonoBehaviour
         {
             message = "Falsch abgebogen";
         }
+        if (other.CompareTag("NoRightTurn"))
+        {
+            message = "Falsch abgebogen";
+        }
+
 
         if (!string.IsNullOrEmpty(message))
         {
@@ -75,7 +80,6 @@ public class StreetInstructions : MonoBehaviour
 
     void Start()
     {
-        // bei start soll kurz fahren sie los angezeigt werden
         if (textField)
         {
             StartCoroutine(ShowTextForSeconds("Fahren Sie los.", 3f));

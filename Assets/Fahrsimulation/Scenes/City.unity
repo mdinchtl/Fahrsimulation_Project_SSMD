@@ -28769,7 +28769,7 @@ GameObject:
   - component: {fileID: 1095774234}
   m_Layer: 0
   m_Name: OvertakeCar
-  m_TagString: Wrong
+  m_TagString: PassBy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35012,7 +35012,7 @@ GameObject:
   - component: {fileID: 1314243341}
   m_Layer: 0
   m_Name: NoRightTurn
-  m_TagString: Wrong
+  m_TagString: NoRightTurn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54349,7 +54349,7 @@ GameObject:
   - component: {fileID: 2011081612}
   m_Layer: 0
   m_Name: NoEntry
-  m_TagString: WrongPath
+  m_TagString: NoRightTurn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
